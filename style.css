@@ -6,7 +6,7 @@ body {
     }
     
     header {
-    background-color: #333;
+    background: linear-gradient(to bottom, #70be63, #f7dc6f);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -14,6 +14,7 @@ body {
     
     header h1 {
     margin: 0;
+    color: #70be63; /* verde */
     }
     
     nav ul {
@@ -50,4 +51,13 @@ body {
     border-bottom: 2px solid #333;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    }
+    
+    /* Estilos específicos para palavras-chave */
+    #sobre h2, #atividades h2, #eventos h2, #recursos h2 {
+    color: #ff0000; /* vermelho */
+    }
+    
+    #atividades h2, #eventos h2, #recursos h2 {
+    color: #006400; /* verde escuro */
     }
